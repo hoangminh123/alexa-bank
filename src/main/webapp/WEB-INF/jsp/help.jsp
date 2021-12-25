@@ -5,7 +5,7 @@
 <!--[if IE 9 ]><html class="ie ie9" lang="en" class="no-js"> <![endif]-->
 <!--[if !(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
 <head>
-	<title>Insecure Bank</title>
+	<title>Alexa Bank</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description" content="HDIV-EE-BANK">
@@ -41,7 +41,7 @@
 					<div class="col-md-2 col-sm-4 col-xs-7">
 						<a class="btn btn-link btn-off-canvas pull-left"><i class="icon ion-navicon"></i></a>
 						<div class="logo pull-left">
-							<i class="fa fa-university fa-logo"></i> <span class="logo-text">Insecure Bank </span>
+							<i class="fa fa-university fa-logo"></i> <span class="logo-text">Alexa Bank </span>
 						</div>
 					</div>
 					<div class="col-md-10 col-sm-8 col-xs-5">
