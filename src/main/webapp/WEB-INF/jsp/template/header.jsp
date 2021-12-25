@@ -7,7 +7,7 @@
 	<title>XXX Bank</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="Alexa Bank">
+	<meta name="description" content="XXX Bank">
 	<meta name="author" content="The Develovers">
 
 	<!-- CSS -->
