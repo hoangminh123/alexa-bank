@@ -1,5 +1,6 @@
 <%@ include file="/WEB-INF/jsp/template/tags.jsp"%>
 <%@ include file="/WEB-INF/jsp/template/header.jsp"%>
+<!--<%@ page import="com.google.common.html.HtmlEscapers"%>-->
 
 <body class="static-tables">
 
@@ -104,6 +105,13 @@
 											</tr>
 											<tr>
 												<td><label class="col-md-4 control-label">Description</label></td>
+												<%--<td>
+													<%
+														String loc = request.getParameter("description");
+														String escapedLocation = HtmlEscapers.htmlEscaper().escape(loc);
+													%>
+													<%=escapedLocation%>
+												</td>--%>
 												<td>${transferbean.description}</td>
 											</tr>
 											<tr>
