@@ -10,6 +10,8 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.security.Principal;
 import java.util.List;
 
@@ -81,6 +83,8 @@ public class DashboardController {
 	@RequestMapping(value = "/userDetail/avatar", method = RequestMethod.GET)
 	public void getImage(final HttpServletResponse response, @RequestParam(value = "image") final String image) {
 
+		//Path p = Paths.get(image);
+		//image = p.getFileName().toString();
 		File file = storageFacade.exists(image) ? storageFacade.load(image) : storageFacade.load("avatar.png");
 		try {
 			writeResponse(new FileInputStream(file), response.getOutputStream());
