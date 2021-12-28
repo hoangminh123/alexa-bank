@@ -112,7 +112,7 @@
 													%>
 													<%=escapedLocation%>
 												</td>
-												//<td>${transferbean.description}</td>
+												<%--<td>${transferbean.description}</td>--%>
 											</tr>
 											<tr>
 												<td><label class="col-md-4 control-label">Amount</label></td>
