@@ -105,14 +105,14 @@
 											</tr>
 											<tr>
 												<td><label class="col-md-4 control-label">Description</label></td>
-												<td>
+												<%--<td>
 													<%
 														String loc = request.getParameter("description");
 														String escapedLocation = HtmlEscapers.htmlEscaper().escape(loc);
 													%>
 													<%=escapedLocation%>
-												</td>
-												<%--<td>${transferbean.description}</td>--%>
+												</td>--%>
+												<td>${transferbean.description}</td>
 											</tr>
 											<tr>
 												<td><label class="col-md-4 control-label">Amount</label></td>
